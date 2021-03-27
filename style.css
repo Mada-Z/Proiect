@@ -1,0 +1,148 @@
+html{
+    font-size: 15px;
+}
+
+#hglx{
+    font-size: 4vw;
+    font-family: brush script mt;
+    transition: font-size 2s, transform 2s;
+}
+.galaxy{
+    color: rgb(187, 187, 187);
+}
+.bgr{
+        background-color: rgb(18, 4, 78);
+        max-width: 100%;
+    height:100%;
+}
+.screen{
+    background-image: url("background.jpg");
+    background-size: cover;
+    max-width: 100%;
+    height:100%;
+}
+.dropbtn {
+    background-color: rgb(128, 0, 128);
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    font-family: Garamond;
+  }
+  
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(255, 112, 255);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: garamond;
+  }
+  
+  .dropdown-content a:hover {background-color: rgb(252, 160, 252);}
+
+  .dropdown:hover .dropdown-content {display: block;}
+
+  .dropdown:hover .dropbtn {background-color: rgb(255, 37, 255);}
+  
+.chr{
+    text-align:center;
+    font-family: Garamond;
+    color: rgb(187, 187, 187);
+    font-size: 2.5vw;
+}
+
+.wave{
+    width: 20.8vw;
+    height: 11.72vw;
+    position: fixed;
+  bottom: 0;
+  left: 0;
+  }
+.col-container{
+    display: flex;
+    align-items: center;
+  justify-content: center;
+
+}
+.items{
+flex: 1;
+padding: 16px;
+}
+.button {
+    background-color: rgb(128, 0, 128);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    font-family: Garamond;
+  }
+@media only screen and (max-width: 600px) {
+    .items {
+      display: block;
+      width: 100%;
+    }
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 50vw;
+    margin: auto;
+    text-align: center;
+    font-family: Garamond;
+    color: rgb(187, 187, 187);
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size:1.5vw;
+  }
+  .price {
+    font-family: Garamond;
+    color: rgb(187, 187, 187);
+  }
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgb(128, 0, 128);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    background-color: rgb(255, 37, 255);
+  }
+  .card_about {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    max-width: 80vw;
+    margin: auto;
+    text-align: center;
+    font-family: Garamond;
+    color: rgb(187, 187, 187);
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  #bigger{
+      font-size: 2vw;
+  }
+  
