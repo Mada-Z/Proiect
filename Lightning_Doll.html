@@ -5,31 +5,50 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>BT21 Merch</title>
 <link rel="stylesheet" type="text/css" href="style.css"/>
+<script src="index.js" async>
+</script>
 </head>
 <body class="bgr">
+        <div>
+                <a class="cart-btn" href="Cart.html">Cart</a>
+            </div>
         <div class="dropdown">
                 <button class="dropbtn">Menu</button>
                 <div class="dropdown-content">
                   <a href="Home.html">Home</a>
                   <a href="Products.html">Products</a>
                   <a href="About_us.html">About us</a>
-                  <a href="Characters.html"> Meet the characters</a>
+                  <a href="Characters.html">Meet the characters</a>
                 </div>
         
         </div>
-        <div class="card">
-            <img src="bt21_lightup.jpg" alt="Lightning Doll" style="width:100%">
-            <h1>BT21 Baby Lightning Doll </h1>
-            <p class="price">26.95$</p>
-            <p>Product Description:</p>
-            <p>BT21 Baby light up standing doll</p> 
-            <p>*This plush includes batteries and can be pressed up to 3000 times without replacement. The light will automatically turn off after a period of time. *</p>
-                
-            <p>Material:</p> 
-            <p>100% Polyester</p>
-            <p>Product Size:</p>
-            <p>7.1" X 4.8" X 9.3"</p>
-            <p><button>Add to Cart</button></p>
+        <div class="row">
+                <div class="column">
+                        <img class="thumbnail" id='light' src="bt21_lightup.jpg" alt="Lightning Doll" style="max-width:100%;height:auto;">
+                </div>
+
+                <div class="column" id="details">
+                        <h1 class="name">BT21 Baby Lightning Doll </h1>
+                        <p class="price chr">26.95$</p>
+                        <ul class="colorpicker">
+                                <li><img src="koya_lightup.jpg" onclick="lightOption('koya_lightup.jpg','Koya');" data-pin-nopin="true"><br>Koya</li>
+                                <li><img src="rj_lightup.jpg" onclick="lightOption('rj_lightup.jpg','RJ');" data-pin-nopin="true"><br>RJ</li>
+                                <li><img src="shooky_lightup.jpg" onclick="lightOption('shooky_lightup.jpg','Shooky');" data-pin-nopin="true"><br>Shooky</li>
+                                <li><img src="mang_lightup.jpg" onclick="lightOption('mang_lightup.jpg','Mang');" data-pin-nopin="true"><br>Mang</li>
+                                <li><img src="chimmy_lightup.jpg" onclick="lightOption('chimmy_lightup.jpg','Chimmy');" data-pin-nopin="true"><br>Chimmy</li>
+                                <li><img src="tata_lightup.jpg" onclick="lightOption('tata_lightup.jpg','Tata');" data-pin-nopin="true"><br>Tata</li>
+                                <li><img src="cooky_lightup.jpg" onclick="lightOption('cooky_lightup.jpg','Cooky');" data-pin-nopin="true"><br>Cooky</li>
+                        </ul>
+                        <p><button class="add button">Add to Cart</button></p>
+                        <p>Product Description:</p>
+                        <p>BT21 Baby light up standing doll</p> 
+                        <p>*This plush includes batteries and can be pressed up to 3000 times without replacement. The light will automatically turn off after a period of time. *</p>
+                        <p>Material:</p> 
+                        <p>100% Polyester</p>
+                        <p>Product Size:</p>
+                        <p>7.1" X 4.8" X 9.3"</p>
+                        
+                </div>
         </div>
 </body>
 </html>
